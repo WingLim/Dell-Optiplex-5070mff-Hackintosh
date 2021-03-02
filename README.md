@@ -23,6 +23,7 @@
 - Airdrop & Airplay & Handoff
 - All USB Ports
 - LAN & Wireless Network
+- Internal Speaker & 3.5mm Audio Output & Line Out
 
 ## BIOS Settings
 
@@ -33,6 +34,8 @@
 - Virtualization Support → VT for Direct I/O: ***uncheck***
 
 ## BIOS Settings via GRUB
+
+Put `GRUB` folder `EFI` in the root of flash disk, boot computer from it.
 
 - Set Pre-Allocated DVMT to 64M: ***setup_var 0x8DC 0x02***
 - Disable CFG lock: ***setup_var 0x5BE 0x00***
