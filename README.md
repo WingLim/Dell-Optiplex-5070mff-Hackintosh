@@ -28,6 +28,13 @@ Use Opencore v0.6.7
 - Internal Speaker & 3.5mm Audio Output & Line Out
 - Sleep
 
+## BIOS Settings via GRUB
+
+Put `GRUB` folder `EFI` in the root of flash disk, boot computer from it.
+
+- Set Pre-Allocated DVMT to 64M: ***setup_var 0x8DC 0x02***
+- Disable CFG lock: ***setup_var 0x5BE 0x00***
+
 ## BIOS Settings
 
 - System Configuration → SATA Operation: ***AHCI***
@@ -36,9 +43,6 @@ Use Opencore v0.6.7
 - Power Management → Block Sleep: ***check***
 - Virtualization Support → VT for Direct I/O: ***uncheck***
 
-## BIOS Settings via GRUB
+## config.plist Settings
 
-Put `GRUB` folder `EFI` in the root of flash disk, boot computer from it.
-
-- Set Pre-Allocated DVMT to 64M: ***setup_var 0x8DC 0x02***
-- Disable CFG lock: ***setup_var 0x5BE 0x00***
+Use [OpenCore Configurator](https://mackie100projects.altervista.org/occ-changelog-version-2-30-1-0/) or [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate `System Serial Number` and `System UUID` etc.
