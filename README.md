@@ -1,8 +1,10 @@
 # Dell-Optiplex-5070mff-Hackintosh
 
-**EFI tested on Big Sur 11.2.2**
+**EFI tested on Big Sur 11.2.3**
 
-![Big Sur 11.2.2](https://cdn.jsdelivr.net/gh/WingLim/assets@master/images/20210314192649.png)
+Use Opencore v0.6.7
+
+![Big Sur 11.2.3](https://cdn.jsdelivr.net/gh/WingLim/assets@master/images/20210315163415.png)
 
 ## Hardware
 
