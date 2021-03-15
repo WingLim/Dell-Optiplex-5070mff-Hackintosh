@@ -2,7 +2,7 @@
 
 **EFI tested on Big Sur 11.2.2**
 
-
+![Big Sur 11.2.2](https://cdn.jsdelivr.net/gh/WingLim/assets@master/images/20210314192649.png)
 
 ## Hardware
 
@@ -24,6 +24,7 @@
 - All USB Ports
 - LAN & Wireless Network
 - Internal Speaker & 3.5mm Audio Output & Line Out
+- Sleep
 
 ## BIOS Settings
 
