@@ -1,5 +1,7 @@
 # 戴尔 Optiplex 5070mff 黑苹果
 
+[![Analyze](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml/badge.svg)](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml)
+
 [English](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/blob/main/README.md) | 中文
 
 **EFI 已经在 Big Sur 11.2.3 上通过测试**

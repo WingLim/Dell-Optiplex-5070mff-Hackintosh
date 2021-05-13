@@ -1,5 +1,7 @@
 # Dell-Optiplex-5070mff-Hackintosh
 
+[![Analyze](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml/badge.svg)](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml)
+
 English | [中文](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/blob/main/README_CN.md)
 
 **EFI tested on Big Sur 11.2.3**
