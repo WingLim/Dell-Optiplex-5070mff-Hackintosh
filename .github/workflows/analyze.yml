@@ -13,7 +13,6 @@ jobs:
   analyze-oc-config:
     runs-on: macos-latest
     name: Analyze OpenCore Configs
-    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
 
