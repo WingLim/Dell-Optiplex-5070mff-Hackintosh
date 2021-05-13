@@ -1,0 +1,27 @@
+name: Analyze
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  analyze-oc-config:
+    runs-on: macos-latest
+    name: Analyze OpenCore Configs
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install Dependency
+        run: |
+          mkdir "tmp" && cd "tmp" || exit 1
+          curl -# -L -O https://github.com/acidanthera/OpenCorePkg/releases/download/0.6.7/OpenCore-0.6.7-RELEASE.zip || exit 1
+          unzip -qq "*.zip" || exit 1
+          chmod +x Utilities/ocvalidate/ocvalidate || exit 1
+      
+      - name: Run ocvalidate
+        run: |
+          ./tmp/Utilities/ocvalidate/ocvalidate ./Opencore/EFI/OC/config.plist || exit 1
+
+          
