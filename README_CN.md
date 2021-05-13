@@ -1,45 +1,45 @@
-# Dell-Optiplex-5070mff-Hackintosh
+# 戴尔 Optiplex 5070mff 黑苹果
 
-English | [中文](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/blob/main/README_CN.md)
+[English](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/blob/main/README.md) | 中文
 
-**EFI tested on Big Sur 11.2.3**
+**EFI 已经在 Big Sur 11.2.3 上通过测试**
 
-Use Opencore v0.6.7
+使用 Opencore v0.6.7
 
 ![Big Sur 11.2.3](https://cdn.jsdelivr.net/gh/WingLim/assets@master/images/20210315163415.png)
 
-## Hardware
+## 硬件
 
-- Desktop Computer: [Dell OptiPlex 5070 Micro Form Factor](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-5070-micro/spd/optiplex-5070-micro)
-- CPU: [Intel® Core™ i5-9500T Processor](https://ark.intel.com/content/www/us/en/ark/products/191052/intel-core-i5-9500t-processor-9m-cache-up-to-3-70-ghz.html)
-- iGPU: Intel® UHD Graphics 630
-- RAM: 16GB DDR4 2666 Daul Channel
-- Storage: KIOXIA RC10 NVME SSD 500G
-- Wi-Fi & Bluetooth: DW1820A
-- Audio: Realtek ALC255
+- 准系统: [戴尔 OptiPlex 5070 微台式机](https://www.dell.com/zh-cn/work/shop/desktops-all-in-one-pcs/optiplex-5070-micro/spd/optiplex-5070-micro)
+- CPU: [Intel® Core™ i5-9500T 处理器](https://ark.intel.com/content/www/us/en/ark/products/191052/intel-core-i5-9500t-processor-9m-cache-up-to-3-70-ghz.html)
+- 核显: Intel® UHD Graphics 630
+- 内存: 16GB DDR4 2666 双通道
+- 固态硬盘: 铠侠 RC10 NVME SSD 500G
+- Wi-Fi & 蓝牙: DW1820A
+- 声卡: Realtek ALC255
 
-**NOTICE:** When use DW1820A, you need to block 4 pins, see here: https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html
+**注意:** 如果你使用的是 DW1820A, 你需要屏蔽 4 个针脚, 具体请看: https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html
 
-## Working
+## 正常工作
 
-- CPU Turbo Boost
-- iGPU acceleration
+- CPU 睿频
+- 核显加速
 - Airdrop & Airplay & Handoff
-- All USB Ports
-- LAN & Wireless Network
-- Internal Speaker & 3.5mm HeadSet/HeadPhone & Line Out
-- Sleep
+- 所有 USB 接口
+- 有线网和无线网
+- 内置扬声器 & 3.5mm 头戴/耳机（带麦克风） & 有线输出
+- 休眠
 
-## BIOS Settings via GRUB
+## 使用 GRUB 设置 BIOS
 
-Put `GRUB` folder `EFI` in the root of flash disk, boot computer from it.
+将 `GRUB` 下的 `EFI` 文件夹放到U盘的根目录，然后从U盘启动。 
 
-See more on the bottom of README.md
+更多相关信息查看 README_CN.md 底部。
 
-- Set Pre-Allocated DVMT to 64M: ***setup_var 0x8DC 0x02***
-- Disable CFG lock: ***setup_var 0x5BE 0x00***
+- 设置预分配 DVMT 为 64M: ***setup_var 0x8DC 0x02***
+- 禁用 CFG 锁: ***setup_var 0x5BE 0x00***
 
-## BIOS Settings
+## BIOS 设置
 
 - System Configuration → SATA Operation: ***AHCI***
 - Secure Boot → Secure Boot Enable: ***Disabled***
@@ -47,24 +47,24 @@ See more on the bottom of README.md
 - Power Management → Block Sleep: ***check***
 - Virtualization Support → VT for Direct I/O: ***uncheck***
 
-## config.plist Settings
+## config.plist 设置
 
-Notice: OpenCore Configurator need the correct version for OpenCore.
+注意: OpenCore Configurator 需要和 OpenCore 的版本对应。
 
-OpenCore Configurator v2.3.10 for OpenCore v0.6.7
+OpenCore v0.6.7 对应 OpenCore Configurator v2.3.10
 
-Use [OpenCore Configurator](https://mackie100projects.altervista.org/occ-changelog-version-2-30-1-0/) or [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate `System Serial Number` and `System UUID` etc.
+使用 [OpenCore Configurator](https://mackie100projects.altervista.org/occ-changelog-version-2-30-1-0/) 或者 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) 来生成序列号，即 `System Serial Number` 和 `System UUID` 等。
 
-## Do Fix
+## 一些修复
 
-### HeadSet Micphone
-Run `PostInstall/ComboJackFix/install.sh`
+### 有线耳机的麦克风
+运行 `PostInstall/ComboJackFix/install.sh`
 
-Inject your headset, and select the headset option.
+插入有线耳机后选择 HeadSet，然后麦克风就能使用了。
 
 ![Select Type](https://cdn.jsdelivr.net/gh/WingLim/assets@master/images/20210513134245.png)
 
-## Settings dump from BIOS
+## 从 BIOS dump 出来的设置
 
 ```
 0x4DAC0 	Form: View/Configure CPU Lock Options, FormId: 0x273D {01 86 3D 27 BD 01}
