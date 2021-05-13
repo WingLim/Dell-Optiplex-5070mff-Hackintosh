@@ -16,9 +16,11 @@ jobs:
       - name: Install Dependency
         run: |
           mkdir "tmp" && cd "tmp" || exit 1
-          curl -# -L -O https://github.com/acidanthera/OpenCorePkg/releases/download/0.6.7/OpenCore-0.6.7-RELEASE.zip || exit 1
+          curl -# -L -O https://github.com/acidanthera/OpenCorePkg/releases/download/{$OC_VERSION}/OpenCore-{$OC_VERSION}-RELEASE.zip || exit 1
           unzip -qq "*.zip" || exit 1
           chmod +x Utilities/ocvalidate/ocvalidate || exit 1
+        env:
+          OC_VERSION: 0.6.7
       
       - name: Run ocvalidate
         run: |
