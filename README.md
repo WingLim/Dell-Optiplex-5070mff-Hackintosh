@@ -25,7 +25,7 @@ Use Opencore v0.6.7
 - Airdrop & Airplay & Handoff
 - All USB Ports
 - LAN & Wireless Network
-- Internal Speaker & 3.5mm Audio Output & Line Out
+- Internal Speaker & 3.5mm HeadSet/HeadPhone & Line Out
 - Sleep
 
 ## BIOS Settings via GRUB
@@ -47,7 +47,20 @@ See more on the bottom of README.md
 
 ## config.plist Settings
 
+Notice: OpenCore Configurator need the correct version for OpenCore.
+
+OpenCore Configurator v2.3.10 for OpenCore v0.6.7
+
 Use [OpenCore Configurator](https://mackie100projects.altervista.org/occ-changelog-version-2-30-1-0/) or [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate `System Serial Number` and `System UUID` etc.
+
+## Do Fix
+
+### HeadSet Micphone
+Run `PostInstall/ComboJackFix/install.sh`
+
+Inject your headset, and select the headset option.
+
+![Select Type](https://cdn.jsdelivr.net/gh/WingLim/assets@master/images/20210513134245.png)
 
 ## Settings dump from BIOS
 
