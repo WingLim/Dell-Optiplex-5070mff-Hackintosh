@@ -5,13 +5,13 @@
 
 ---
 
+## [Released]
+
 ## [1.2.1] - 2021-05-13
 
 ### Changed
 
 - Disable debug log
-
-## [Released]
 
 ## [1.2.0] - 2021-05-13
 
