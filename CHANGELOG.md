@@ -7,6 +7,13 @@
 
 ## [Released]
 
+## [1.3.0] - 2021-05-16
+
+### Changed
+
+- Change ComboJack to MicFix for auto fix micphone
+
+
 ## [1.2.1] - 2021-05-13
 
 ### Changed
@@ -67,9 +74,10 @@
 [Semantic Versioning]: https://semver.org/
 
 <!-- Versions -->
-[Unreleased]: https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/compare/v1.2.1...HEAD
+[Unreleased]: https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/compare/v1.3.0...HEAD
 [Released]: https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/releases
 [1.0.0]: https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/releases/v1.0.0
 [1.1.0]: https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/releases/v1.1.0
 [1.2.0]: https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/releases/v1.2.0
 [1.2.1]: https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/releases/v1.2.1
+[1.3.0]: https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/releases/v1.3.0
