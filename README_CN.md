@@ -60,11 +60,7 @@ OpenCore v0.6.7 对应 OpenCore Configurator v2.3.10
 ## 一些修复
 
 ### 有线耳机的麦克风
-运行 `PostInstall/ComboJackFix/install.sh`
-
-插入有线耳机后选择 HeadSet，然后麦克风就能使用了。
-
-![Select Type](https://cdn.jsdelivr.net/gh/WingLim/assets@master/images/20210513134245.png)
+运行 `PostInstall/MicFix/install.sh`
 
 ## 从 BIOS dump 出来的设置
 

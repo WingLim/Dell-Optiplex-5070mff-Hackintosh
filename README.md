@@ -60,11 +60,8 @@ Use [OpenCore Configurator](https://mackie100projects.altervista.org/occ-changel
 ## Do Fix
 
 ### HeadSet Micphone
-Run `PostInstall/ComboJackFix/install.sh`
 
-Inject your headset, and select the headset option.
-
-![Select Type](https://cdn.jsdelivr.net/gh/WingLim/assets@master/images/20210513134245.png)
+Run `PostInstall/MicFix/install.sh`
 
 ## Settings dump from BIOS
 
