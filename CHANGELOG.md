@@ -9,9 +9,17 @@
 
 ## [1.3.0] - 2021-05-16
 
+### Added
+
+- Add `alcverbs=1` to enable execute hda-verb command
+
 ### Changed
 
 - Change ComboJack to MicFix for auto fix micphone
+
+### Removed
+
+- Remove VerbStub
 
 
 ## [1.2.1] - 2021-05-13
