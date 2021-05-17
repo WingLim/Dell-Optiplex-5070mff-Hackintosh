@@ -10,14 +10,33 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Export version
+        id: version
+        run: echo ::set-output name=tag::${GITHUB_REF#refs/*/}
+
+      - name: Package to zip
+        id: zip
+        run: |
+          filename=Dell_Optiplex_5070mff-${{ steps.version.outputs.tag }}.zip
+          zip -r ${filename} ./*
+          echo ::set-output name=filename::${filename}
+
+      - name: Install git-chglog
+        uses: actions/install-git-chglog@v1
+
+      - name: Generate changelog
+        run: git-chglog -o ${{ steps.version.outputs.tag }}.md ${{ steps.version.outputs.tag }}
 
       - name: Release
-        uses: docker://antonyurchenko/git-release:latest
+        uses: softprops/action-gh-release@v1
+        with:
+          draft: true
+          files: ${{ steps.zip.outputs.filename }}
+          body_path: ${{ steps.version.outputs.tag }}.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DRAFT_RELEASE: "true"
-          PRE_RELEASE: "true"
-          CHANGELOG_FILE: "CHANGELOG.md"
-          ALLOW_EMPTY_CHANGELOG: "false"
-          ALLOW_TAG_PREFIX: "true"

@@ -1,13 +1,6 @@
-# Changelog
 
-## [Unreleased]
-
-
----
-
-## [Released]
-
-## [1.3.0] - 2021-05-16
+<a name="v1.3.0"></a>
+## [v1.3.0](https://github.com/WingLim/MicFix/compare/v1.2.1...v1.3.0) (2021-05-16)
 
 ### Added
 
@@ -22,25 +15,30 @@
 - Remove VerbStub
 
 
-## [1.2.1] - 2021-05-13
+<a name="v1.2.1"></a>
+## [v1.2.1](https://github.com/WingLim/MicFix/compare/v1.2.0...v1.2.1) (2021-05-13)
 
 ### Changed
 
 - Disable debug log
 
-## [1.2.0] - 2021-05-13
+
+<a name="v1.2.0"></a>
+## [v1.2.0](https://github.com/WingLim/MicFix/compare/v1.1.0...v1.2.0) (2021-05-13)
 
 ### Added
 
-- ComboJack for HeadSet micphone
-- `SSDT-HPET.aml`
-- `SSDT-USBX.aml`
+- Use ComboJack for HeadSet micphone
+- Add `SSDT-HPET.aml`
+- Add `SSDT-USBX.aml`
 
 ### Removed
 
-- `SSDT-SBUS-MCHC.aml`
+- Remove `SSDT-SBUS-MCHC.aml`
 
-## [1.1.0] - 2021-05-13
+
+<a name="v1.1.0"></a>
+## [v1.1.0](https://github.com/WingLim/MicFix/compare/v1.0.0...v1.1.0) (2021-05-13)
 
 ### Added
 
@@ -57,7 +55,8 @@
 - Remove Audio fake device-id
 
 
-## [1.0.0] - 2021-03-15
+<a name="v1.0.0"></a>
+## v1.0.0 (2021-03-15)
 
 ### Added
 
@@ -75,17 +74,3 @@
 - Set false to `ProtectUefiServices`
 - Set ture to `RebuildAppleMemoryMap`
 
----
-
-<!-- Links -->
-[Keep a Changelog]: https://keepachangelog.com/
-[Semantic Versioning]: https://semver.org/
-
-<!-- Versions -->
-[Unreleased]: https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/compare/v1.3.0...HEAD
-[Released]: https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/releases
-[1.0.0]: https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/releases/v1.0.0
-[1.1.0]: https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/releases/v1.1.0
-[1.2.0]: https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/releases/v1.2.0
-[1.2.1]: https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/releases/v1.2.1
-[1.3.0]: https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/releases/v1.3.0
