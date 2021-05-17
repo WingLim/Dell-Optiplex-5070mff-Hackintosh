@@ -27,7 +27,7 @@ jobs:
           echo ::set-output name=filename::${filename}
 
       - name: Install git-chglog
-        uses: actions/install-git-chglog@v1
+        uses: craicoverflow/install-git-chglog@v1
 
       - name: Generate changelog
         run: git-chglog -o ${{ steps.version.outputs.tag }}.md ${{ steps.version.outputs.tag }}
