@@ -1,3 +1,10 @@
+<a name="v1.4.0"></a>
+## [v1.4.0](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/compare/v1.3.1...v1.4.0) (2021-05-17)
+
+### Added
+
+* Update MicFix 1.1.1
+
 <a name="v1.3.1"></a>
 ## [v1.3.1](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/compare/v1.3.0...v1.3.1) (2021-05-17)
 
