@@ -62,6 +62,8 @@ OpenCore v0.6.7 对应 OpenCore Configurator v2.3.10
 
 ### 有线耳机的麦克风
 
+查看更多信息：[MicFix](https://github.com/WingLim/MicFix)
+
 ```bash
 brew tap winglim/taps
 brew install micfix

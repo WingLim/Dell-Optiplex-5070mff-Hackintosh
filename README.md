@@ -62,6 +62,8 @@ Use [OpenCore Configurator](https://mackie100projects.altervista.org/occ-changel
 
 ### HeadSet Micphone
 
+More details to see: [MicFix](https://github.com/WingLim/MicFix)
+
 ```bash
 brew tap winglim/taps
 brew install micfix
