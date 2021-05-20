@@ -61,7 +61,11 @@ OpenCore v0.6.7 对应 OpenCore Configurator v2.3.10
 ## 一些修复
 
 ### 有线耳机的麦克风
-运行 `PostInstall/MicFix/install.sh`
+
+```bash
+brew tap winglim/taps
+brew install micfix
+```
 
 ## 从 BIOS dump 出来的设置
 

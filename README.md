@@ -62,7 +62,10 @@ Use [OpenCore Configurator](https://mackie100projects.altervista.org/occ-changel
 
 ### HeadSet Micphone
 
-Run `PostInstall/MicFix/install.sh`
+```bash
+brew tap winglim/taps
+brew install micfix
+```
 
 ## Settings dump from BIOS
 
