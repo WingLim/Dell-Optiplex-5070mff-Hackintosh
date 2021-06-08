@@ -7,7 +7,7 @@
 
 **EFI 已经在 Big Sur 11.3.1 上通过测试**
 
-使用 Opencore v0.6.7
+使用 Opencore v0.7.0
 
 ![Big Sur 11.3.1](https://cdn.jsdelivr.net/gh/WingLim/assets@master/images/20210521192649.png)
 
