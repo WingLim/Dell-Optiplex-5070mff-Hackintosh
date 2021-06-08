@@ -1,4 +1,11 @@
 
+<a name="v1.6.0"></a>
+## [v1.6.0](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/compare/v1.5.0...v1.6.0) (2021-06-08)
+
+### Added
+
+* update OpenCore `v0.7.0`
+
 <a name="v1.5.0"></a>
 ## [v1.5.0](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/compare/v1.4.0...v1.5.0) (2021-05-20)
 
