@@ -7,7 +7,7 @@ English | [中文](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/b
 
 **EFI tested on Big Sur 11.3.1**
 
-Use Opencore v0.6.7
+Use Opencore v0.7.0
 
 ![Big Sur 11.3.1](https://cdn.jsdelivr.net/gh/WingLim/assets@master/images/20210521192649.png)
 
