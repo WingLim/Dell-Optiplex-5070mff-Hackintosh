@@ -273,7 +273,7 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AACbPg==</data>
+				<data>BwCbPg==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
 				<key>framebuffer-con0-busid</key>
