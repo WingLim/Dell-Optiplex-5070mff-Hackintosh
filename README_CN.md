@@ -7,7 +7,7 @@
 
 **EFI 已经在 Big Sur 11.6 上通过测试**
 
-使用 Opencore v0.7.3
+使用 OpenCore `v0.7.3`
 
 ![Screenshot](screenshot.png)
 
