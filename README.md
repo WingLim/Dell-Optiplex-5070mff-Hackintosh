@@ -1,3 +1,5 @@
+![banner](banner.jpg)
+
 # Dell-Optiplex-5070mff-Hackintosh
 
 [![Analyze](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml/badge.svg)](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml)
