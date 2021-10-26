@@ -7,9 +7,9 @@
 
 English | [中文](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/blob/main/README_CN.md)
 
-**EFI tested on Big Sur 11.6**
+**EFI tested on Monterey 12.0.1**
 
-Use OpenCore `v0.7.3`
+Use OpenCore `v0.7.4`
 
 ![Screenshot](screenshot.png)
 
