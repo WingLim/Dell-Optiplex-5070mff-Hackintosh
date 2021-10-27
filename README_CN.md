@@ -25,12 +25,6 @@
 
 ## 正常工作
 
-**注意:** 蓝牙在 Monterey 上不能完美运行
-
-问题:
-1. AirDrop 和 Handoff 只能从 iPhone/iPad 到 Mac, 不能从 Mac 到 iPhone/iPad
-2. 随航无法连接到 iPad
-
 - CPU 睿频
 - 核显加速
 - Airdrop & Airplay & Handoff
@@ -38,6 +32,13 @@
 - 有线网和无线网
 - 内置扬声器 & 3.5mm 头戴/耳机（带麦克风） & 有线输出
 - 休眠
+
+## 不正常工作
+
+**注意:** 蓝牙在 Monterey 上不能完美运行
+
+- AirDrop 和 Handoff 只能从 iPhone/iPad 到 Mac, 不能从 Mac 到 iPhone/iPad
+- 随航无法连接到 iPad
 
 ## 使用 GRUB 设置 BIOS
 
