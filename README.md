@@ -27,6 +27,12 @@ Use OpenCore `v0.7.4`
 
 ## Working
 
+**Notice:** Bluetooth didn't work perfectly in Monterey
+
+Issues:
+1. AirDrop and Handoff can only from iPhone/iPad to Mac, Mac to iPhone/iPad is down
+2. Sidecar CAN NOT connect to iPad
+
 - CPU Turbo Boost
 - iGPU acceleration
 - Airdrop & Airplay & Handoff
