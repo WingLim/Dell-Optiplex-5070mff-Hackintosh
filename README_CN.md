@@ -25,6 +25,12 @@
 
 ## 正常工作
 
+**注意:** 蓝牙在 Monterey 上不能完美运行
+
+问题:
+1. AirDrop 和 Handoff 只能从 iPhone/iPad 到 Mac, 不能从 Mac 到 iPhone/iPad
+2. 随航无法连接到 iPad
+
 - CPU 睿频
 - 核显加速
 - Airdrop & Airplay & Handoff
