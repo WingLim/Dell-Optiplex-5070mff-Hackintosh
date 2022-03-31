@@ -1,9 +1,9 @@
 # 戴尔 Optiplex 5070mff 黑苹果
 
-[![Analyze](https://github.com/springLee1989/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml/badge.svg)](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml)
+[![Analyze](https://github.com/springLee1989/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml/badge.svg)](https://github.com/springLee1989/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/springLee1989/Dell-Optiplex-5070mff-Hackintosh?include_prereleases)
 
-[English](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/blob/main/README.md) | 中文
+[English](https://github.com/springLee1989/Dell-Optiplex-5070mff-Hackintosh/blob/main/README.md) | 中文
 
 **EFI 已经在 Monterey 12.3 上通过测试**
 **EFI 理论上支持 bigSur 11.6**
@@ -73,7 +73,7 @@ OpenCore v0.7.9 对应 OpenCore Configurator v2.3.10
 查看更多信息：[MicFix](https://github.com/WingLim/MicFix)
 
 ```bash
-brew tap winglim/taps
+brew tap springLee1989/taps
 brew install micfix
 ```
 

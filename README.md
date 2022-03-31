@@ -2,10 +2,10 @@
 
 # Dell-Optiplex-5070mff-Hackintosh
 
-[![Analyze](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml/badge.svg)](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/WingLim/Dell-Optiplex-5070mff-Hackintosh?include_prereleases)
+[![Analyze](https://github.com/springLee1989/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml/badge.svg)](https://github.com/springLee1989/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/springLee1989/Dell-Optiplex-5070mff-Hackintosh?include_prereleases)
 
-English | [中文](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/blob/main/README_CN.md)
+English | [中文](https://github.com/springLee1989/Dell-Optiplex-5070mff-Hackintosh/blob/main/README_CN.md)
 
 **EFI tested on Monterey 12.3**
 **EFI theoretically suported on bigSur 11.6 but do not test**
