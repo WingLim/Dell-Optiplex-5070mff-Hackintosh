@@ -2,7 +2,7 @@ style: github
 template: CHANGELOG.tpl.md
 info:
   title: CHANGELOG
-  repository_url: https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh
+  repository_url: https://github.com/springLee1989/Dell-Optiplex-5070mff-Hackintosh
 options:
   commits:
     filters:
