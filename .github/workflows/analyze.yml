@@ -23,7 +23,7 @@ jobs:
           unzip -qq "*.zip" || exit 1
           chmod +x Utilities/ocvalidate/ocvalidate || exit 1
         env:
-          OC_VERSION: 0.7.4
+          OC_VERSION: 0.7.9
       
       - name: Run ocvalidate
         run: |
