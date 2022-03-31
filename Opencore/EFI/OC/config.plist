@@ -661,6 +661,8 @@
                 <true/>
                 <key>DisableWatchDog</key>
                 <true/>
+                <key>LogModules</key>
+			    <string>*</string>
                 <key>DisplayDelay</key>
                 <integer>0</integer>
                 <key>DisplayLevel</key>
