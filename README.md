@@ -2,21 +2,22 @@
 
 # Dell-Optiplex-5070mff-Hackintosh
 
-[![Analyze](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml/badge.svg)](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/WingLim/Dell-Optiplex-5070mff-Hackintosh?include_prereleases)
+[![Analyze](https://github.com/springLee1989/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml/badge.svg)](https://github.com/springLee1989/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/springLee1989/Dell-Optiplex-5070mff-Hackintosh?include_prereleases)
 
-English | [中文](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/blob/main/README_CN.md)
+English | [中文](https://github.com/springLee1989/Dell-Optiplex-5070mff-Hackintosh/blob/main/README_CN.md)
 
-**EFI tested on Monterey 12.0.1**
+**EFI tested on Monterey 12.3**
+**EFI theoretically suported on bigSur 11.6 but do not test**
 
-Use OpenCore `v0.7.4`
+Use OpenCore `v0.7.9`
 
 ![Screenshot](screenshot.png)
 
 ## Hardware
 
 - Desktop Computer: [Dell OptiPlex 5070 Micro Form Factor](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-5070-micro/spd/optiplex-5070-micro)
-- CPU: [Intel® Core™ i5-9500T Processor](https://ark.intel.com/content/www/us/en/ark/products/191052/intel-core-i5-9500t-processor-9m-cache-up-to-3-70-ghz.html)
+- CPU: [Intel® Core™ i9-9900T Processor](https://ark.intel.com/content/www/us/en/ark/products/191044/intel-core-i99900t-processor-16m-cache-up-to-4-40-ghz.html)
 - iGPU: Intel® UHD Graphics 630
 - RAM: 16GB DDR4 2666 Daul Channel
 - Storage: KIOXIA RC10 NVME SSD 500G
@@ -61,9 +62,9 @@ See more on the bottom of README.md
 
 ## config.plist Settings
 
-Notice: OpenCore Configurator need the correct version for OpenCore.
+Notice: OCAuxiliaryTools need the correct version for OpenCore.
 
-OpenCore Configurator v2.3.10 for OpenCore v0.6.7
+OCAuxiliaryTools v20220204 for OpenCore v0.7.8
 
 Use [OpenCore Configurator](https://mackie100projects.altervista.org/occ-changelog-version-2-30-1-0/) or [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate `System Serial Number` and `System UUID` etc.
 

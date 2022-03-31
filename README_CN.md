@@ -1,22 +1,23 @@
 # 戴尔 Optiplex 5070mff 黑苹果
 
-[![Analyze](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml/badge.svg)](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/WingLim/Dell-Optiplex-5070mff-Hackintosh?include_prereleases)
+[![Analyze](https://github.com/springLee1989/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml/badge.svg)](https://github.com/springLee1989/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/springLee1989/Dell-Optiplex-5070mff-Hackintosh?include_prereleases)
 
-[English](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/blob/main/README.md) | 中文
+[English](https://github.com/springLee1989/Dell-Optiplex-5070mff-Hackintosh/blob/main/README.md) | 中文
 
-**EFI 已经在 Monterey 11.6 上通过测试**
+**EFI 已经在 Monterey 12.3 上通过测试**
+**EFI 理论上支持 bigSur 11.6**
 
-使用 OpenCore `v0.7.4`
+使用 OpenCore `v0.7.9`
 
 ![Screenshot](screenshot.png)
 
 ## 硬件
 
 - 准系统: [戴尔 OptiPlex 5070 微台式机](https://www.dell.com/zh-cn/work/shop/desktops-all-in-one-pcs/optiplex-5070-micro/spd/optiplex-5070-micro)
-- CPU: [Intel® Core™ i5-9500T 处理器](https://ark.intel.com/content/www/us/en/ark/products/191052/intel-core-i5-9500t-processor-9m-cache-up-to-3-70-ghz.html)
+- CPU: [Intel® Core™ i9-9900T 处理器](https://ark.intel.com/content/www/us/en/ark/products/191044/intel-core-i99900t-processor-16m-cache-up-to-4-40-ghz.html)
 - 核显: Intel® UHD Graphics 630
-- 内存: 16GB DDR4 2666 双通道
+- 内存: 32GB DDR4 2666 双通道
 - 固态硬盘: 铠侠 RC10 NVME SSD 500G
 - Wi-Fi & 蓝牙: DW1820A
 - 声卡: Realtek ALC255
@@ -61,7 +62,7 @@
 
 注意: OpenCore Configurator 需要和 OpenCore 的版本对应。
 
-OpenCore v0.6.7 对应 OpenCore Configurator v2.3.10
+OpenCore v0.7.9 对应 OpenCore Configurator v2.3.10
 
 使用 [OpenCore Configurator](https://mackie100projects.altervista.org/occ-changelog-version-2-30-1-0/) 或者 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) 来生成序列号，即 `System Serial Number` 和 `System UUID` 等。
 
@@ -72,7 +73,7 @@ OpenCore v0.6.7 对应 OpenCore Configurator v2.3.10
 查看更多信息：[MicFix](https://github.com/WingLim/MicFix)
 
 ```bash
-brew tap winglim/taps
+brew tap springLee1989/taps
 brew install micfix
 ```
 
