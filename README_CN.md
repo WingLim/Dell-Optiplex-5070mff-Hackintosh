@@ -5,7 +5,7 @@
 
 [English](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/blob/main/README.md) | 中文
 
-**EFI 已经在 Monterey 11.6 上通过测试**
+**EFI 已经在 Monterey 12.3.1 上通过测试**
 
 使用 OpenCore `v0.7.4`
 
@@ -18,10 +18,8 @@
 - 核显: Intel® UHD Graphics 630
 - 内存: 16GB DDR4 2666 双通道
 - 固态硬盘: 铠侠 RC10 NVME SSD 500G
-- Wi-Fi & 蓝牙: DW1820A
+- Wi-Fi & 蓝牙: BCM94360Z4
 - 声卡: Realtek ALC255
-
-**注意:** 如果你使用的是 DW1820A, 你需要屏蔽 4 个针脚, 具体请看: https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html
 
 ## 正常工作
 
@@ -32,13 +30,6 @@
 - 有线网和无线网
 - 内置扬声器 & 3.5mm 头戴/耳机（带麦克风） & 有线输出
 - 休眠
-
-## 不正常工作
-
-**注意:** 蓝牙在 Monterey 上不能完美运行
-
-- AirDrop 和 Handoff 只能从 iPhone/iPad 到 Mac, 不能从 Mac 到 iPhone/iPad
-- 随航无法连接到 iPad
 
 ## 使用 GRUB 设置 BIOS
 
@@ -60,8 +51,6 @@
 ## config.plist 设置
 
 注意: OpenCore Configurator 需要和 OpenCore 的版本对应。
-
-OpenCore v0.6.7 对应 OpenCore Configurator v2.3.10
 
 使用 [OpenCore Configurator](https://mackie100projects.altervista.org/occ-changelog-version-2-30-1-0/) 或者 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) 来生成序列号，即 `System Serial Number` 和 `System UUID` 等。
 

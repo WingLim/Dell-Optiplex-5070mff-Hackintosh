@@ -7,7 +7,7 @@
 
 English | [中文](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/blob/main/README_CN.md)
 
-**EFI tested on Monterey 12.0.1**
+**EFI tested on Monterey 12.3.1**
 
 Use OpenCore `v0.7.4`
 
@@ -20,10 +20,8 @@ Use OpenCore `v0.7.4`
 - iGPU: Intel® UHD Graphics 630
 - RAM: 16GB DDR4 2666 Daul Channel
 - Storage: KIOXIA RC10 NVME SSD 500G
-- Wi-Fi & Bluetooth: DW1820A
+- Wi-Fi & Bluetooth: BCM94360Z4
 - Audio: Realtek ALC255
-
-**NOTICE:** When use DW1820A, you need to block 4 pins, see here: https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html
 
 ## Working
 
@@ -34,13 +32,6 @@ Use OpenCore `v0.7.4`
 - LAN & Wireless Network
 - Internal Speaker & 3.5mm HeadSet/HeadPhone & Line Out
 - Sleep
-
-## Not Working
-
-**NOTICE:** Bluetooth didn't work perfectly in Monterey
-
-- AirDrop and Handoff can only from iPhone/iPad to Mac, Mac to iPhone/iPad is down
-- Sidecar CAN NOT connect to iPad
 
 ## BIOS Settings via GRUB
 
@@ -62,8 +53,6 @@ See more on the bottom of README.md
 ## config.plist Settings
 
 Notice: OpenCore Configurator need the correct version for OpenCore.
-
-OpenCore Configurator v2.3.10 for OpenCore v0.6.7
 
 Use [OpenCore Configurator](https://mackie100projects.altervista.org/occ-changelog-version-2-30-1-0/) or [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate `System Serial Number` and `System UUID` etc.
 
