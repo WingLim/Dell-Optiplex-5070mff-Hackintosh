@@ -3,7 +3,7 @@
 [![Analyze](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml/badge.svg)](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/WingLim/Dell-Optiplex-5070mff-Hackintosh?include_prereleases)
 
-![banner](banner.jpg)
+![banner](images/banner.jpg)
 
 [English](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/blob/main/README.md) | 中文
 
@@ -11,7 +11,7 @@
 
 使用 OpenCore `v0.7.4`
 
-![Screenshot](screenshot.png)
+![Screenshot](images/screenshot.png)
 
 ## 硬件
 
