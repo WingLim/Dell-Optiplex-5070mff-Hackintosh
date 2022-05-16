@@ -3,6 +3,8 @@
 [![Analyze](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml/badge.svg)](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/actions/workflows/analyze.yml)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/WingLim/Dell-Optiplex-5070mff-Hackintosh?include_prereleases)
 
+![banner](banner.jpg)
+
 [English](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh/blob/main/README.md) | 中文
 
 **EFI 已经在 Monterey 12.3.1 上通过测试**
@@ -17,7 +19,9 @@
 - CPU: [Intel® Core™ i5-9500T 处理器](https://ark.intel.com/content/www/us/en/ark/products/191052/intel-core-i5-9500t-processor-9m-cache-up-to-3-70-ghz.html)
 - 核显: Intel® UHD Graphics 630
 - 内存: 16GB DDR4 2666 双通道
-- 固态硬盘: 铠侠 RC10 NVME SSD 500G
+- 固态硬盘:
+  - 铠侠 RC10 NVME SSD 500GB
+  - 闪迪 Ultra 3D SATA SSD 1TB
 - Wi-Fi & 蓝牙: BCM94360Z4
 - 声卡: Realtek ALC255
 
